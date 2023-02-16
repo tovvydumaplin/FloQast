@@ -1,0 +1,125 @@
+/* 1380px */
+@media (max-width: 86.25em) {
+  .tag-line-box {
+    transform: translateX(-16.8%);
+  }
+}
+
+/* 1130px */
+@media (max-width: 70.63em) {
+  html {
+    font-size: 56.5%;
+  }
+
+  .heading-primary {
+    font-size: 5.5rem;
+  }
+  .tag-line {
+    font-size: 3.5rem;
+  }
+  .heading-tertiary {
+    font-size: 2.4rem;
+  }
+
+  .text-description {
+    font-size: 1.8rem;
+  }
+}
+
+/* 875px */
+
+@media (max-width: 54.69em) {
+  html {
+    font-size: 50%;
+  }
+  .logo {
+    width: 50%;
+    height: 50%;
+  }
+
+  .heading-primary {
+    font-size: 4.5rem;
+  }
+  .tag-line {
+    font-size: 2.5rem;
+    letter-spacing: normal;
+  }
+  .heading-tertiary {
+    font-size: 2.2rem;
+  }
+
+  .text-description {
+    font-size: 1.8rem;
+  }
+
+  .btn-primary {
+    padding: 1.4rem 1.7rem;
+  }
+}
+/* 730px */
+@media (max-width: 45.63em) {
+  .tag-line-box {
+    transform: translateX(0);
+    width: 100%;
+  }
+
+  .box-align {
+    margin: 0;
+  }
+
+  .cta-box {
+    grid-template-columns: 1fr;
+  }
+
+  .cta-box .text-box {
+    background-color: #8bc540;
+    background-image: none;
+  }
+  .cta-box .img {
+    display: none;
+  }
+  main {
+    background-image: url(../images/hero-img-mobile.png);
+    background-position: center;
+    background-size: cover;
+    /* min-height: inherit; */
+  }
+}
+/* 500px */
+@media (max-width: 31.25em) {
+  .hero {
+    padding: 2rem 0 2rem 0;
+  }
+
+  .logo-box {
+    justify-content: center;
+    gap: 0.5rem;
+  }
+
+  .tag-line-box {
+    background-image: linear-gradient(
+      to right,
+      transparent,
+      #fffffffa,
+      transparent
+    );
+  }
+  .heading-primary {
+    text-align: center;
+  }
+
+  .tag-line {
+    text-align: center;
+  }
+  .container {
+    gap: 7rem;
+  }
+
+  .cta-form .heading-tertiary {
+    text-align: center;
+  }
+
+  .inputs {
+    flex-wrap: wrap;
+  }
+}
