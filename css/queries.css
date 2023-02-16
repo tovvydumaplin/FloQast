@@ -79,7 +79,7 @@
     display: none;
   }
   main {
-    background-image: url(../images/hero-img-mobile.png);
+    background-image: url(../images/hero-img-mobile.webp);
     background-position: center;
     background-size: cover;
     /* min-height: inherit; */
