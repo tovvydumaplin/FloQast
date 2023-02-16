@@ -99,9 +99,9 @@
   .tag-line-box {
     background-image: linear-gradient(
       to right,
-      transparent,
+      #ffffff5c,
       #fffffffa,
-      transparent
+      #ffffff5c
     );
   }
   .heading-primary {
